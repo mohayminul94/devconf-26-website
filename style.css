@@ -8,6 +8,10 @@ body{
     font-family: sans-serif;
 }
 
+section{
+    padding: 12px 8%;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -75,4 +79,31 @@ nav img{
     color: white;
     display: inline-block;
     width: auto;
+}
+
+
+
+.speakers h1{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 56px;
+}
+
+.speakers-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.card{
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+}
+
+.card-text{
+    padding: 24px;
+}
+
+.sub-tittle{
+    color: #1D4ED8;
 }
