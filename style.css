@@ -173,8 +173,8 @@ nav img{
 
 .divider{
     background-color: #E5E7EB;
-    border: none;
-    height: 1px;
+    border: 0.5px solid;
+    opacity: 30%;
 }
 
 .features-list{
@@ -185,3 +185,35 @@ nav img{
 .features-list-special{
     color: white;
 }
+
+footer{
+    background-color: #0D1B2A;
+    padding: 56px 8%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.social-icons{
+    font-size: 200%;
+    color: white;
+}
+
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    opacity: 40%;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.terms-condition{
+    display: flex;
+    gap: 10px;
+}
+
