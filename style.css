@@ -107,3 +107,81 @@ nav img{
 .sub-tittle{
     color: #1D4ED8;
 }
+
+
+.pricing-header{
+    text-align: center;
+    padding: 80px;
+}
+
+
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pricing-card{
+    padding: 32px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+}
+
+.featured{
+    background-color: #0D1B2A;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    color: white;
+}
+
+.btn-solid{
+    padding: 12px 12px;
+    border: none;
+    background: #1D4ED8;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-outline{
+    padding: 12px 12px;
+    border: none;
+    border: 2px solid #1D4ED8;
+    border-radius: 10px;
+    color: #1D4ED8;
+}
+
+.plan-name{
+    color: #888888;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.price-meta{
+    color: #888888;
+    font-size: 13px;
+}
+
+.price{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.divider{
+    background-color: #E5E7EB;
+    border: none;
+    height: 1px;
+}
+
+.features-list{
+    font-size: 14px;
+    color: #333333;
+}
+
+.features-list-special{
+    color: white;
+}
