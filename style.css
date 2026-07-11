@@ -8,6 +8,10 @@ body{
     font-family: sans-serif;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 section{
     padding: 12px 8%;
 }
@@ -112,6 +116,10 @@ nav img{
 .card{
     border-radius: 12px;
     border: 1px solid #E5E7EB;
+    width: 100%;
+}
+
+.card img{
     width: 100%;
 }
 
